@@ -1,14 +1,12 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-//const bodyParser = require("body-parser");
 require("dotenv/config");
 
 // Import Route Management
 const userRoute = require("./routes/user");
 
 // Middleware
-//app.use(bodyParser.json()); // handles POST JSON data.
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/user", userRoute);
