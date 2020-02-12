@@ -8,7 +8,7 @@ Provides a simple framework for creating an API service using Node with Mongo DB
 
 The data model provided is based on a User - Adding, Listing, Deleting, Updating DB Collections.
 
-The framework defines Middleware to isolate the HTTP Protocol Routes makning it cleaner to manage.
+The framework defines Middleware to isolate the HTTP Protocol Routes making it cleaner to manage.
 
 ## Packages Installed
 
